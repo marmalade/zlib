@@ -1,5 +1,5 @@
-ZLIB on Marmalade
-===============
+Zlib for Marmalade
+==================
 
 This module can be used to build the standard zlib compression
 and decompression into your Marmalade application.
