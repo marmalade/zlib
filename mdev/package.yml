@@ -1,0 +1,31 @@
+Package: zlib
+Version: 1.2.3
+Revision: 2
+Maintainer: Marmalade Package Team <packages@ideaworkslabs.com>
+Mkbs: zlib.mkb
+Description: |
+ zlib library for creating and reading zlib compressed data.
+Contents-src:
+ - zlib.mkb
+ - zlib.mkf
+ - zlib_public.mkf
+ - README.txt
+Contents:
+ - upstream/zlib.h : h/zlib.h
+ - upstream/zconf.h : h/zconf.h
+ - zlib_public.mkf : zlib.mkf
+ - README.txt
+ - lib/arm/z.a
+ - lib/arm/z_d.a
+ - lib/arm/libz_d.a
+ - lib/arm/libz.a
+Contents-platform:
+  win32:
+    - lib/x86/z.lib
+    - lib/x86/z_d.lib
+  linux:
+    - lib/x86/linux/libz.a
+    - lib/x86/linux/libz_d.a
+  macosx:
+    - lib/x86/darwin/libz.a
+    - lib/x86/darwin/libz_d.a

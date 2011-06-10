@@ -1,0 +1,10 @@
+includepath h
+
+files
+{
+        (h)
+        zconf.h
+        zlib.h
+}
+
+library ".,z"
