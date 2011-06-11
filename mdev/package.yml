@@ -9,12 +9,12 @@ Contents-src:
  - zlib.mkb
  - zlib.mkf
  - zlib_public.mkf
- - README.txt
+ - README.rst
 Contents:
  - upstream/zlib.h : h/zlib.h
  - upstream/zconf.h : h/zconf.h
  - zlib_public.mkf : zlib.mkf
- - README.txt
+ - README.rst
  - lib/arm/z.a
  - lib/arm/z_d.a
  - lib/arm/libz_d.a
