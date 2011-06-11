@@ -1,7 +1,7 @@
 upstream
 {
 	#original: http://www.zlib.net/zlib-1.2.3.tar.gz
-	url="http://source.ideaworkslabs.com/upstream/zlib-1.2.3.tar.gz"
+	url="http://source.madewithmarmalade.com/upstream/zlib-1.2.3.tar.gz"
 }
 
 includepath "upstream"

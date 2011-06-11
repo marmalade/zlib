@@ -2,3 +2,5 @@ build_z_*
 lib
 upstream
 zlib-*.tar.gz
+zlib_*.mdev
+zlib_*.msrc
