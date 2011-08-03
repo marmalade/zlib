@@ -1,0 +1,6 @@
+zlib (1.2.4-6)
+
+  * Add changlog
+  * package.yml: remove Version and Revision fields.
+
+ -- Sam Clegg <sam@marmalademail.com>  Wed, 03 Aug 2011 01:25:12 +0000
